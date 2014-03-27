@@ -62,7 +62,7 @@
 	    	res.render('index', {title: req.params.name});
 	    });
 	    app.get('/params/index', function(req, res){
-	    	res.render('/params/index',{title: "Test"});
+	    	res.render('params/index',{title: "Test"});
 	    });
 	    app.get('/presidents', function(req, res){
 	    	res.render('list', { presidents: presidents });
